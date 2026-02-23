@@ -66,8 +66,8 @@ def check():
 
 
 if __name__ == "__main__":
-    check()
-    # schedule.every().day.at("15:00").do(check)
+    # check()
+    schedule.every().day.at("22:00").do(check)
     # schedule.every(1).seconds.do(check)
 
     while True:
