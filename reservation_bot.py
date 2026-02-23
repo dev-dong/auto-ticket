@@ -26,8 +26,8 @@ def check():
         driver = webdriver.Chrome(options=options)
 
         # url 접속
-        ticket_data = "2026-03-02"
-        target_time = "11:55"
+        ticket_data = "2026-03-03"
+        target_time = "18:45"
         driver.get(f'https://www.xn--2e0b040a4xj.com/reservation?branch=4&theme=22&date={ticket_data}#list')
         # driver.get(f'https://www.xn--2e0b040a4xj.com/reservation?branch=4&theme=13&date=2026-02-23#list')
         buttons = driver.find_elements(By.CSS_SELECTOR, "button.active1.eveReservationButton")
